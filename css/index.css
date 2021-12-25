@@ -1,0 +1,31 @@
+@import "./base.css";
+
+.profile{
+    width: 3em;
+}
+
+body{
+    background: var(--theme-color-light);
+}
+
+nav{
+    background: var(--theme-color)!important;
+}
+
+.text .timestamp{
+    font-size: 11px;
+}
+
+.post-footer *{
+    color: var(--theme-color-50);
+    /* color: var(--dark-text); */
+    font-size: 17px;
+}
+
+.post-footer a{
+    padding: .2rem 1.5rem;
+}
+
+nav .topper{
+    background: var(--theme-color);
+}
